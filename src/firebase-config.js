@@ -4,7 +4,7 @@ import { getAuth } from 'firebase/auth';
 
 // Replace with YOUR config from Firebase Console!
 const firebaseConfig = {
-  apiKey: "AIzaSyAW3rTgAKGeihRMXGjbjHzHVchfGbkjtEs",
+  apiKey: GEMINI_KEY,
   authDomain: "the-turnstile-26de6.firebaseapp.com",
   projectId: "the-turnstile-26de6",
   storageBucket: "the-turnstile-26de6.firebasestorage.app",
@@ -17,5 +17,6 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 const auth = getAuth(app);
+
 
 export { app, db, auth };
