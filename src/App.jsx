@@ -98,8 +98,9 @@ function App() {
     return (
       <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white flex items-center justify-center">
         <div className="text-center">
-          <div className="w-20 h-20 bg-gradient-to-br from-cyan-400 to-blue-500 rounded-2xl flex items-center justify-center shadow-lg mx-auto mb-4 animate-pulse">
-            <span className="text-5xl">🏉</span>
+          <div className="w-10 h-10 flex items-center justify-center">
+  <img src="/logo.png" alt="The Turnstile Logo" />
+</div>
           </div>
           <p className="text-white/70">Loading...</p>
         </div>
@@ -113,8 +114,9 @@ function App() {
       <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white flex items-center justify-center p-4">
         <div className="w-full max-w-md">
           <div className="text-center mb-8">
-            <div className="w-20 h-20 bg-gradient-to-br from-cyan-400 to-blue-500 rounded-2xl flex items-center justify-center shadow-lg mx-auto mb-4">
-              <span className="text-5xl">🏉</span>
+           <div className="w-10 h-10 flex items-center justify-center">
+  <img src="/logo.png" alt="The Turnstile Logo" />
+</div>
             </div>
             <h1 className="text-4xl font-bold bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent mb-2">
               The Turnstile
